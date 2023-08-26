@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.main{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.circle{
+    height:21vh;
+    width:10vw;
+  
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.shape{
+        height:50%;
+        width:50%;
+  
+   background-color: white;
+}
+
+.triangle{
+    width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid white;
+}
+
+.para{
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid white;
+	border-bottom: 25px solid transparent;
+}
+.round{
+    height: 55px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
